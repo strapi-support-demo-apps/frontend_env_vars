@@ -33,11 +33,11 @@
   "dependencies": {
     "@strapi/design-system": "^2.0.0-rc.28",
     "@strapi/icons": "^2.0.0-rc.28",
+    "@strapi/sdk-plugin": "^5.3.2",
     "react-intl": "^7.1.11"
   },
   "devDependencies": {
     "@strapi/strapi": "^5.17.0",
-    "@strapi/sdk-plugin": "^5.3.2",
     "prettier": "^3.6.2",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
