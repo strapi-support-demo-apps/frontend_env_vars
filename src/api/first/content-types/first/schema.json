@@ -1,0 +1,24 @@
+{
+  "kind": "collectionType",
+  "collectionName": "firsts",
+  "info": {
+    "singularName": "first",
+    "pluralName": "firsts",
+    "displayName": "First"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "seconds": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::second.second",
+      "inversedBy": "firsts"
+    },
+    "name": {
+      "type": "string"
+    }
+  }
+}
